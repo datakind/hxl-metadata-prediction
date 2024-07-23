@@ -1,3 +1,5 @@
 gdown==5.2.0
 pandas==2.2.2
 hdx-python-api==6.3.1
+openai==1.35.3
+python-dotenv==1.0.1
