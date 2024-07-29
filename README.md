@@ -8,7 +8,7 @@ This repo provides analysis for improvement to the fine tuning technique as well
 
 ## Contents:
 
-1. [generate-test=train-data.ipynb](generate-test=train-data.ipynb) - Notebook for creating test and traning data used by other notebooks
+1. [generate-test-train-data.ipynb](generate-test-train-data.ipynb) - Notebook for creating test and traning data used by other notebooks
 2. [openai-hxl-prediction.ipynb](openai-hxl-prediction.ipynb) - Notebok showing how to fine-tune and OpenAI model (GPT-4o) as well as use a non-fine tuning approach to directly prompt GPT-4o 
 
 ## Setup
