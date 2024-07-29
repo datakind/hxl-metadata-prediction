@@ -4,12 +4,12 @@ A data standard on platforms such as the [Humanitarian Data Exchange (HDX)](http
 
 Previous work has focussed on fine tuning LLMs to complete tags and attrubutes, starting with the study [Predicting Metadata on Humanitarian Datasets with GPT 3](https://medium.com/towards-data-science/predicting-metadata-for-humanitarian-datasets-using-gpt-3-b104be17716d). This provides accurate results for common HXL tags related to location and dates, but is constrained by the quality of training data in being able to predict tags and attributes that are less frequently used (see [HXL standard](https://hxlstandard.org/standard/1-1final/tagging/).
 
-This repo provides analysis for improvement to the fine tuning technique as well as a comparison. 
+This repo provides analysis for improvement to the fine tuning technique as well as a comparison with direct prompting.
 
 ## Contents:
 
 1. [generate-test-train-data.ipynb](generate-test-train-data.ipynb) - Notebook for creating test and traning data used by other notebooks
-2. [openai-hxl-prediction.ipynb](openai-hxl-prediction.ipynb) - Notebok showing how to fine-tune and OpenAI model (GPT-4o) as well as use a non-fine tuning approach to directly prompt GPT-4o 
+2. [openai-hxl-prediction.ipynb](openai-hxl-prediction.ipynb) - Notebook showing how to fine-tune and OpenAI model (GPT-4o) as well as use a non-fine tuning approach to directly prompt GPT-4o 
 
 ## Setup
 
