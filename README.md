@@ -2,13 +2,13 @@
 
 A data standard on platforms such as the [Humanitarian Data Exchange (HDX)](https://data.humdata.org/) is the [Humanitarian Exchange Language (HXL)](https://hxlstandard.org/), a column level set of attributes and tags and attributes which improve data interoperability and discovery. These tags and attributes are typically set by hand by data owners, which being a manual process can result in poor dataset coverage. Improving coverage through ML and AI techniques is desirable for faster and more efficient use of data in responding to Humanitarian disasters.
 
-Previous work has focussed on fine tuning LLMs to complete tags and attrubutes, starting with the study [Predicting Metadata on Humanitarian Datasets with GPT 3](https://medium.com/towards-data-science/predicting-metadata-for-humanitarian-datasets-using-gpt-3-b104be17716d). This provides accurate results for common HXL tags related to location and dates, but is constrained by the quality of training data in being able to predict tags and attributes that are less frequently used (see [HXL standard](https://hxlstandard.org/standard/1-1final/tagging/).
+Previous work has focussed on fine tuning LLMs to complete tags and attrubutes, starting with the study [Predicting Metadata on Humanitarian Datasets with GPT 3](https://medium.com/towards-data-science/predicting-metadata-for-humanitarian-datasets-using-gpt-3-b104be17716d). This provides accurate results for common HXL tags related to location and dates, but is constrained by the quality of training data in being able to predict tags and attributes that are less frequently used (see [HXL standard](https://hxlstandard.org/standard/1-1final/tagging/)).
 
 This repo provides analysis for improvement to the fine tuning technique as well as a comparison with direct prompting.
 
 ## Contents:
 
-1. [generate-test-train-data.ipynb](generate-test-train-data.ipynb) - Notebook for creating test and traning data used by other notebooks
+1. [generate-test-train-data.ipynb](generate-test-train-data.ipynb) - Notebook for creating test and traning data 
 2. [openai-hxl-prediction.ipynb](openai-hxl-prediction.ipynb) - Notebook showing how to fine-tune and OpenAI model (GPT-4o) as well as use a non-fine tuning approach to directly prompt GPT-4o 
 
 ## Setup
