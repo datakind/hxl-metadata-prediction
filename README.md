@@ -21,8 +21,9 @@ You will need to create an [API key in OpenAI](https://help.openai.com/en/articl
 
 This repo provides a button on each notebook to run in [Google Colab](https://colab.research.google.com/). If using this method, you will also need to:
 
-1. Set `OPENAI_API_KEY` to your OpenAI key in Colab secrets (click the little key icon on the left)
+1. Set `OPENAI_API_KEY` to your OpenAI key in Colab secrets (click the little key icon on the left) and set `OPENAI_API_KEY` at the top of notebooks
 2. Create a folder on google drive, and update file paths in the notebooks accordingly, noting that the Google drive mount cell creates the mount at `/content/drive`
+3. Set `GOOGLE_BASE_DIR` accordingly at the top of notebooks
 
 ### Running locally
 
@@ -30,4 +31,4 @@ This repo provides a button on each notebook to run in [Google Colab](https://co
 2. In this directory, open terminal
 3. `conda env create -f environment.yml`
 4. `conda activate hxl-prediction` use this runtime to run this notebook 
-5. Adjust file pathc in the setup pane of notebooks appropriate to your environment
+5. Set `LOCAL_DATA_DIR` at the top of notebooks. 
