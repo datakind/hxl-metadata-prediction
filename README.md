@@ -24,6 +24,7 @@ This repo provides a button on each notebook to run in [Google Colab](https://co
 1. Set `OPENAI_API_KEY` to your OpenAI key in Colab secrets (click the little key icon on the left) and set `OPENAI_API_KEY` at the top of notebooks
 2. Create a folder on google drive, and update file paths in the notebooks accordingly, noting that the Google drive mount cell creates the mount at `/content/drive`
 3. Set `GOOGLE_BASE_DIR` accordingly at the top of notebooks
+4. Uncomment and run the `pip install` commands at the top of each notebook
 
 ### Running locally
 
